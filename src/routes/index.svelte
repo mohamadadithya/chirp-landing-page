@@ -89,7 +89,7 @@
 			>
 			<div class="flex mt-6 mb-4">
 				{#each avatars as avatar, i}
-					<img src={`Assets/${avatar}`} class="-mr-6" alt={`userAvatar${i}`} />
+					<img src={`./Assets/${avatar}`} class="-mr-6" alt={`userAvatar${i}`} />
 				{/each}
 			</div>
 			<p class="text-gray-500 lg:pr-40">
@@ -136,7 +136,7 @@
 		<a href="/" class="italic font-bold text-dodger-blue text-2xl" aria-label="Logo">Chirp</a>
 		<ul class="flex items-center mt-4 md:mt-0">
 			<li class="mr-6">
-				<img src="Assets/Twitter (Black).svg" alt="Twitter" />
+				<img src="./Assets/Twitter (Black).svg" alt="Twitter" />
 			</li>
 			<li class="mr-6">
 				<a href="/">Privacy Policy</a>

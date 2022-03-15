@@ -16,7 +16,7 @@
 		<div class="flex justify-between items-center mb-4 md:mb-0">
 			<a href="/" aria-label="Logo" class="text-2xl text-dodger-blue font-bold italic">Chirp.</a>
 			<button type="button" class="block md:hidden" on:click={() => (navbarState = !navbarState)}>
-				<img src="Assets/Hamburger Menu.svg" alt="Hamburger Menu" />
+				<img src="./Assets/Hamburger Menu.svg" alt="Hamburger Menu" />
 			</button>
 		</div>
 		<ul class={`${navbarState ? 'block' : 'hidden'} md:flex items-center`}>
