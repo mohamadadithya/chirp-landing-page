@@ -10,7 +10,9 @@
 <svelte:window bind:scrollY={offsetY} />
 
 <nav
-	class={`py-5 z-10 fixed top-0 w-full ${offsetY < sectionOffset ? 'bg-vista-white' : 'bg-white'}`}
+	class={`py-5 z-10 fixed top-0 w-full transition-all duration-500 ${
+		offsetY < sectionOffset ? 'bg-vista-white' : 'bg-white'
+	}`}
 >
 	<Container classes="block md:flex justify-between items-center">
 		<div class="flex justify-between items-center mb-4 md:mb-0">
