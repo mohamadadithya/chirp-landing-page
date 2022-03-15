@@ -97,7 +97,7 @@
 				followers and scheduled <span class="text-dodger-blue font-bold">1342</span> tweets.
 			</p>
 		</div>
-		<img src="Assets/Hero Image (Desktop View).png" class="w-full order-1 lg:order-2" alt="Hero" />
+		<img src="/Assets/Hero Image (Desktop View).png" class="w-full order-1 lg:order-2" alt="Hero" />
 	</Container>
 </section>
 <section class="py-16" bind:offsetHeight={sectionOffset}>
@@ -136,7 +136,7 @@
 		<a href="/" class="italic font-bold text-dodger-blue text-2xl" aria-label="Logo">Chirp</a>
 		<ul class="flex items-center mt-4 md:mt-0">
 			<li class="mr-6">
-				<img src="./Assets/Twitter (Black).svg" alt="Twitter" />
+				<img src="/Assets/Twitter (Black).svg" alt="Twitter" />
 			</li>
 			<li class="mr-6">
 				<a href="/">Privacy Policy</a>
